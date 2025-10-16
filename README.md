@@ -1,4 +1,4 @@
-# CNAB Importer (.NET 9 + MySQL)
+# CNAB Importer (.NET 8 + MySQL)
 
 Upload and parse CNAB fixed-width files, persist transactions, and expose a simple report per store with balances.
 
