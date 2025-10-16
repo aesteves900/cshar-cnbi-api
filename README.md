@@ -14,7 +14,7 @@ Swagger: http://localhost:8080/swagger
 ```bash
 dotnet restore && dotnet build
 ASPNETCORE_URLS=http://localhost:8080 \
-ConnectionStrings__Default="Server=localhost;Port=3306;Database=cnab;User=cnab;Password=cnab" \
+ConnectionStrings__Default="Data Source=./data/cnab.db" \
 dotnet run --project src/Cnab.Api
 ```
 
