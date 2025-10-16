@@ -1,0 +1,15 @@
+
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.Cache
+*.ide
+*.DS_Store
+**/TestResults/
+**/.idea/
+**/.ionide/
+**/.vscode/
+.env
+.env.*

@@ -1,0 +1,17 @@
+{
+    "$schema": "https://json.schemastore.org/launchsettings.json",
+    "profiles": {
+        "Cnab.Api": {
+            "commandName": "Project",
+            "dotnetRunMessages": true,
+            "launchBrowser": true,            
+            "launchUrl": "swagger",            
+            "applicationUrl": "http://localhost:8080",
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "Development",
+                "ConnectionStrings__Default": "Data Source=./data/cnab.db"
+            }
+        }
+       
+    }
+}
